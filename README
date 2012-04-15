@@ -18,9 +18,12 @@
         + view their reviews per choice,
         + view their trailers if interested
 
+ don't forget [$ bundle install] before running these
 
  CURRENT STATE:
   + imdb links per file/dir entry
+        eg: MDIR=./MyMoviesDir rake movie:rating:imdb
+        eg: MUV="Any Movie Name" rake movie:rating:imdb
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  it's a project for all movie buffs (i <3 muvz 2)
